@@ -9,7 +9,7 @@ from torchvision.transforms.transforms import Compose
 import torch
 from torch.utils.data import Dataset
 
-Data_path = "D:/info/graduation thesis/archive/OCT2017_"
+Data_path = "archive/OCT2017_"
 
 
 class oct_loader(Dataset):
@@ -36,10 +36,10 @@ class oct_loader(Dataset):
         self.image_paths = []
         self.image_labels = []
         cate_label_mapping = {
-            "CNV": 1,
-            "DME": 2,
-            "DRUSEN": 3,
-            "NORMAL": 4
+            "CNV": 0,
+            "DME": 1,
+            "DRUSEN": 2,
+            "NORMAL": 3
         }
 
         for i in os.listdir(data_path):
@@ -55,14 +55,13 @@ class oct_loader(Dataset):
     def __getitem__(self, idx):
         img_name = self.image_paths[idx]
         label = self.image_labels[idx]
-        img_path = os.path.join(self.image_dir, img_name)
 
-        image = Image.open(img_path).convert("RGB")
-        image = self.transform(image)
+        image = Image.open(img_name).convert("RGB")
+        image = self.transformers(image)
 
         return image, label
 
 
-
-oct = oct_loader()
-print(len(oct))
+if __name__ == "__main__":
+    oct = oct_loader()
+    print(len(oct))
