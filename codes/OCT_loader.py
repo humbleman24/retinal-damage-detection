@@ -9,7 +9,7 @@ from torchvision.transforms.transforms import Compose
 import torch
 from torch.utils.data import Dataset
 
-Data_path = "archive/OCT2017_"
+Data_path = "../archive/OCT2017_"
 
 
 class oct_loader(Dataset):
