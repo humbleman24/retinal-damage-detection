@@ -1,0 +1,142 @@
+\documentclass[a4paper,12pt]{article}
+
+\RequirePackage{epsfig}
+
+\usepackage{pgfgantt}
+\usepackage{adjustbox}
+
+\setlength\hoffset{-0.5in}      %% these work quite well with a 12pt font
+\setlength\voffset{-0.5in}
+\setlength{\textwidth}{6.30in}
+\setlength{\textheight}{9.0in}
+
+\bibliographystyle{unsrt}
+
+\begin{document}
+
+\begin{center}
+{\Large\bf{Retina Damage Detection and Classification Based On OCT Images}} \\
+      \vspace{5.0mm}
+{\Large\bf{Graduation Thesis: The Interim Report}} \\
+      \vspace{8mm}
+      {\large\bf{Yueju Han}}  \\
+      {\large{Student ID: 50079687}}  \\
+      {\large{Program: AI}}  \\
+      \vspace{5.0mm}
+       {\tt u11yh21@abdn.ac.uk} \\
+      \vspace{5.0mm}
+      {\em Aberdeen-SCNU Joint Institute of Data Science and AI,\\
+       University of Aberdeen, Aberdeen AB24 3UE, UK} 
+\end{center}
+
+
+\section*{Introduction}
+
+Retina diseases are a primary concern in ophthalmology due to their high prevalence and challenging treatment options. The primary symptom of these illnesses is the distortion of any portion of the retina, which causes visual problems and can lead to irreversible visual impairment further. Moreover, the medical causes of these diseases are complex, as evidenced by different status of retina damages. Therefore, early detection and diagnosis of retina diseases is critical for accurately inferring and preventing their progression to more severe stages.
+
+In recent years, the introduction of Optical Coherence Tomography (OCT) has largely facilitated the diagnosis and treatment retina diseases. This innovative imaging technique captures high-resolution cross-sectional images at a microscopic level using low-coherence light, making it a commonly used method for imaging the retina today. Notably, the convenient availability of OCT images also created significant demand for certified professionals to interpret images and diagnose the diseases correctly. Furthermore, some lesions may elude direct observation which make manual interpretation prone to errors. Thus, the automated diagnosis system is of great interest in the field of ophthalmology, as it can help streamline the process of interpreting OCT images and improve diagnostic accuracy.
+
+Recently, the advance of artificial intelligence has provided a solution to this challenge. Based on past research, the accuracy of traditional approaches for classifying retinal disorders has ranges from 80\% to 91\%. Moreover, deep learning models can be more effective at the classification of OCT images because they can extract patterns and features from labeled images and can attain even higher accuracy score. Hence, in this project, I aim to develop a professional deep learning model that achieves high accuracy in classifying the retina diseases and is efficient in making diagnosis decision.
+
+
+
+\section*{Goals}
+
+The primary goal of this project is to develop an advanced deep learning model that enhances the accuracy and efficiency of diagnosing retinal diseases using OCT images. This main goal can be further divided into the following sub-goals:
+
+\begin{itemize}
+    \item \textbf{Enhance Classification Accuracy}: Improve the model's ability to accurately classify the four retina diseases by leveraging the state-of-the-art architecture and making appropriate modification. 
+    
+    \item \textbf{Optimize Decision-Making Efficiency}: Develop a system that not only achieves high diagnostic accuracy but also ensures fast decision-making, aiding clinicians in delivering timely diagnoses and treatment plans.
+    
+    \item \textbf{Better Clinical Interpretation }: Resolve the interpretation challenge by delivering transparent and enlightening interpretability outcomes, which could guide physicians' focus toward critical areas, helping them double-check and verify results.
+    
+\end{itemize}
+
+If time permitted, I plan to further improve my deep learning skills and challenge towards more sophisticated task and problems. They are listed in the following points:
+\begin{itemize}
+    \item \textbf{Exploring Few-Shot Learning}: Investigate the potential of few-shot learning techniques to classify retinal diseases with limited labeled data. This goal aims to address the challenge of acquiring sufficient labeled data for training deep learning models, which is often a constraint in medical imaging tasks.
+
+    \item \textbf{Domain Adaptation Capabilities}: Explore domain adaptation strategies to improve the model's performance across different datasets, ensuring that the model can generalize well even when trained on data from one domain and applied to another.
+\end{itemize}
+
+
+
+\section*{Methodology}
+The methodology of this research aims to develop a deep learning model for the classification of retinal diseases using Optical Coherence Tomography (OCT) images. The process involves multiple stages, and below are the key components of the methodology:
+\begin{itemize}
+    \item \textbf{Data Preprocessing}: The open source dataset OCT2017 is utilized as the main dataset. In this dataset, OCT images are already labelled by the professionals in a well-structured form. However, I observe that the separation of the dataset is not in the standard way. There are approximately up to 120,000 images in training set, while only about 1,000 images in the test set and only 32 images in the validation set. So it requires more standard way to separate the dataset.
+    \item \textbf{Data Augmentation}: Applying data augmentation techniques such as rotation, flipping, and zooming to artificially increase the dataset and improve model robustness.
+    \item \textbf{Model Development}: This research will utilize deep learning models, particularly convolutional neural networks (CNNs), known for their effectiveness in image classification tasks. A pre-trained model (e.g., ResNet, VGG) may be used as a baseline, with transfer learning applied to adapt the model to OCT image data. To achieve the better outcomes, some state-of-the-art general models will also be investigated and modified to adopt to this task
+    \item \textbf{Model Training}: Using cross-entropy loss function for the multi-class classification. Applying optimizers like Adaw or SGD to minimize the loss function. In this stage, I will use grid search to find the most optimal hyperparameters for each model.
+    \item \textbf{Model Evaluation}: Key performance indicators (KPIs) will include accuracy, precision, recall, F1 score. Confusion Matrix would be utilized to visualize the model's performance and identify areas of improvement.
+    \item \textbf{Visualization Using GRAD-CAM}: To improve the transparency and interpretability of the deep learning model, GRAD-CAM (Gradient-weighted Class Activation Mapping) will be applied for visualizing the regions of the OCT images that the model focuses on when making its predictions. 
+    \item \textbf{Optional Extensions}: If time allows, additional strategies such as few-shot learning and domain adaptation will be explored to improve the model’s performance under conditions of limited labeled data and varying data distributions.
+\end{itemize}
+
+\section*{Resources Required}
+To carry out this research, Python and the PyTorch framework are essential tools for developing and training the deep learning model. The operating system I will use locally is Windows, with Visual Studio Code (VSCode) chosen as the integrated development environment (IDE).
+
+For model training, the availability of a GPU is crucial. To meet this requirement, I plan to rent computational resources from online cloud service providers such as Alibaba Cloud, Autodl, etc. However, these platforms typically operate on Linux-based systems. As a result, some modification are necessary to carry out training process with the code writing on Windows.
+
+\section*{Risk Assessment}
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{|p{3cm}|p{3.5cm}|p{3.5cm}|p{4cm}|}
+\hline
+\textbf{Risk Name} & \textbf{Cause} & \textbf{Impact} & \textbf{Mitigation Strategy} \\
+\hline
+\textbf{Computational Resource Limitations} & The need for GPUs for training large models, with potential cost or availability issues. & If resources are unavailable or too expensive, training could be delayed. & Optimize the model to use fewer resources or switch to smaller models, explore cost-effective GPU rental options. \\
+\hline
+\textbf{Model Performance and Overfitting} & Small datasets or lack of regularization could lead to overfitting. & Poor generalization to unseen data, resulting in low performance in real-world scenarios. & Employ dropout, data augmentation, and regularization techniques. Monitor validation performance and implement early stopping. \\
+\hline
+\textbf{Time Pressure and Project Progress} & Tight deadlines and the need for quick results. & Project could face delays or incomplete results, especially during model tuning and data processing. & Properly allocate time, focus on critical milestones first, and adjust project scope if necessary. Prioritize model optimization and core functionality. \\
+\hline
+\end{tabular}
+\caption{Risk Assessment}
+\end{table}
+
+
+\section*{Timetable}
+
+\begin{figure}[htbp]
+\begin{center}
+% \includegraphics[scale=0.65]{ProjectPlan.eps}
+\begin{adjustbox}{center, scale=.8}
+      \begin{ganttchart}[
+            hgrid,
+            vgrid={*{6}{draw=none},{dotted}},
+            vrule/.style={very thick, red},
+            x unit=0.1cm,
+            y unit chart=1.2cm,
+            time slot format=isodate,
+            time slot unit=day,
+            calendar week text = {W\currentweek{}},
+            bar height = 0.6, %necessary to make it fit the height
+            bar top shift = 0.2, %to move it inside the grid space ;)
+            bar label node/.append style={align=right,text width={width("Instrument Kilothon ")}},
+            bar incomplete/.append style={fill=blue},
+            progress label text = \relax
+            ]{2024-11-11}{2025-04-30}
+            \gantttitlecalendar{year, month=name, week} \\
+            \ganttbar[bar/.append style={fill=green}, progress=40]{Background Research}{2024-11-11}{2024-11-24}\\
+            \ganttbar[bar/.append style={fill=green}, progress=80]{Dataset Exploration and Task Specification}{2024-11-25}{2024-12-05}\\
+            \ganttbar[bar/.append style={fill=green}, progress=80]{Investigation of Baseline Model }{2024-12-06}{2024-12-31}\\
+            \ganttbar[bar/.append style={fill=green}, progress=10]{Construction of Myself Model}{2025-01-01}{2025-02-28}\\
+            \ganttbar[bar/.append style={fill=green}, progress=5]{Thorough Models Performance Analysis}{2025-02-20}{2025-03-15}\\
+            \ganttbar[bar/.append style={fill=green}, progress=0]{Report Writing}{2025-03-10}{2025-04-05} \\
+            \ganttbar[bar/.append style={fill=green}, progress=30]{Extra Exploration}{2025-02-10}{2025-04-01} \\
+            \ganttbar[bar/.append style={fill=green}, progress=0]{Presentation Preparation}{2025-04-01}{2025-04-20}
+            \ganttvrule{Report and Code Submission}{2025-04-16}
+            \ganttvrule{Oral Presentation}{2025-04-21}
+        \end{ganttchart}
+    \end{adjustbox}
+    \caption{Main Project Activities.}
+    \label{fig:gantt_chart}
+\end{center}
+\end{figure}
+
+\bibliography{abdn-plan}
+
+\end{document}

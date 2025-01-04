@@ -1,0 +1,526 @@
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.5)  6 DEC 2024 10:06
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"d:/info/graduation thesis/interim report/Graduation Thesis_ Interim Report Template/abdn-plan.tex"
+(d:/info/graduation thesis/interim report/Graduation Thesis_ Interim Report Template/abdn-plan.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+(e:/FakeC/texlive/2024/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(e:/FakeC/texlive/2024/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count184
+\c@section=\count185
+\c@subsection=\count186
+\c@subsubsection=\count187
+\c@paragraph=\count188
+\c@subparagraph=\count189
+\c@figure=\count190
+\c@table=\count191
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (e:/FakeC/texlive/2024/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
+ (e:/FakeC/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (e:/FakeC/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (e:/FakeC/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (e:/FakeC/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (e:/FakeC/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 107.
+ (e:/FakeC/texlive/2024/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
+)
+\epsfxsize=\dimen143
+\epsfysize=\dimen144
+) (e:/FakeC/texlive/2024/texmf-dist/tex/latex/pgfgantt/pgfgantt.sty
+Package: pgfgantt 2018/01/10 v5.0 Draw Gantt diagrams with TikZ
+ (e:/FakeC/texlive/2024/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (e:/FakeC/texlive/2024/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (e:/FakeC/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks18
+\pgfutil@tempdima=\dimen145
+\pgfutil@tempdimb=\dimen146
+) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box51
+) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+ (e:/FakeC/texlive/2024/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (e:/FakeC/texlive/2024/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+ (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks19
+\pgfkeys@temptoks=\toks20
+ (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks21
+))
+\pgf@x=\dimen147
+\pgf@y=\dimen148
+\pgf@xa=\dimen149
+\pgf@ya=\dimen150
+\pgf@xb=\dimen151
+\pgf@yb=\dimen152
+\pgf@xc=\dimen153
+\pgf@yc=\dimen154
+\pgf@xd=\dimen155
+\pgf@yd=\dimen156
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count192
+\c@pgf@countb=\count193
+\c@pgf@countc=\count194
+\c@pgf@countd=\count195
+\t@pgf@toka=\toks22
+\t@pgf@tokb=\toks23
+\t@pgf@tokc=\toks24
+\pgf@sys@id@count=\count196
+ (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-xetex.def
+ (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def
+File: pgfsys-xetex.def 2023-01-15 v3.1.10 (3.1.10)
+ (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
+File: pgfsys-dvipdfmx.def 2023-01-15 v3.1.10 (3.1.10)
+ (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)
+\pgfsys@objnum=\count197
+))) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count198
+\pgfsyssoftpath@bigbuffer@items=\count199
+) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (e:/FakeC/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+ (e:/FakeC/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 274.
+ (e:/FakeC/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+ (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen157
+\pgfmath@count=\count266
+\pgfmath@box=\box52
+\pgfmath@toks=\toks25
+\pgfmath@stack@operand=\toks26
+\pgfmath@stack@operation=\toks27
+) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count267
+)) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen158
+\pgf@picmaxx=\dimen159
+\pgf@picminy=\dimen160
+\pgf@picmaxy=\dimen161
+\pgf@pathminx=\dimen162
+\pgf@pathmaxx=\dimen163
+\pgf@pathminy=\dimen164
+\pgf@pathmaxy=\dimen165
+\pgf@xx=\dimen166
+\pgf@xy=\dimen167
+\pgf@yx=\dimen168
+\pgf@yy=\dimen169
+\pgf@zx=\dimen170
+\pgf@zy=\dimen171
+) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen172
+\pgf@path@lasty=\dimen173
+) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen174
+\pgf@shorten@start@additional=\dimen175
+) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box53
+\pgf@hbox=\box54
+\pgf@layerbox@main=\box55
+\pgf@picture@serial@count=\count268
+) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen176
+) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen177
+\pgf@pt@y=\dimen178
+\pgf@pt@temp=\dimen179
+) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen180
+) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen181
+\pgf@sys@shading@range@num=\count269
+\pgf@shadingcount=\count270
+) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box56
+) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box57
+) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (e:/FakeC/texlive/2024/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen182
+\pgf@nodesepend=\dimen183
+) (e:/FakeC/texlive/2024/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (e:/FakeC/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (e:/FakeC/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (e:/FakeC/texlive/2024/texmf-dist/tex/latex/pgf/math/pgfmath.sty (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen184
+\pgffor@skip=\dimen185
+\pgffor@stack=\toks28
+\pgffor@toks=\toks29
+)) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+ (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count271
+\pgfplotmarksize=\dimen186
+)
+\tikz@lastx=\dimen187
+\tikz@lasty=\dimen188
+\tikz@lastxsaved=\dimen189
+\tikz@lastysaved=\dimen190
+\tikz@lastmovetox=\dimen191
+\tikz@lastmovetoy=\dimen192
+\tikzleveldistance=\dimen193
+\tikzsiblingdistance=\dimen194
+\tikz@figbox=\box58
+\tikz@figbox@bg=\box59
+\tikz@tempbox=\box60
+\tikz@tempbox@bg=\box61
+\tikztreelevel=\count272
+\tikznumberofchildren=\count273
+\tikznumberofcurrentchild=\count274
+\tikz@fig@count=\count275
+ (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count276
+\pgfmatrixcurrentcolumn=\count277
+\pgf@matrix@numberofcolumns=\count278
+)
+\tikz@expandcount=\count279
+ (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\arrowsize=\dimen195
+)) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@layerbox@background=\box62
+\pgf@layerboxsaved@background=\box63
+) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypatterns.code.tex
+File: tikzlibrarypatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.code.tex
+File: pgflibrarypatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (e:/FakeC/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgfcalendar.sty (e:/FakeC/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfcalendar.code.tex
+File: pgfcalendar.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfcalendarcurrentjulian=\count280
+\pgf@cal@easter@Y=\count281
+\pgf@cal@easter@G=\count282
+\pgf@cal@easter@C=\count283
+\pgf@cal@easter@X=\count284
+\pgf@cal@easter@Z=\count285
+\pgf@cal@easter@D=\count286
+\pgf@cal@easter@E=\count287
+\pgf@cal@easter@N=\count288
+\pgf@cal@easter@M=\count289
+\pgf@cal@easter@julianday=\count290
+))
+\gtt@currentline=\count291
+\gtt@lasttitleline=\count292
+\gtt@currgrid=\count293
+\gtt@chartwidth=\count294
+\gtt@lasttitleslot=\count295
+\gtt@elementid=\count296
+\gtt@today@slot=\count297
+\gtt@startjulian=\count298
+\gtt@endjulian=\count299
+\gtt@chartid=\count300
+\gtt@vrule@slot=\count301
+\gtt@calendar@slots=\count302
+\gtt@calendar@weeknumber=\count303
+\gtt@calendar@startofweek=\count304
+\gtt@left@slot=\count305
+\gtt@right@slot=\count306
+) (e:/FakeC/texlive/2024/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
+ (e:/FakeC/texlive/2024/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (e:/FakeC/texlive/2024/texmf-dist/tex/generic/xkeyval/xkeyval.tex (e:/FakeC/texlive/2024/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks30
+\XKV@tempa@toks=\toks31
+)
+\XKV@depth=\count307
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (e:/FakeC/texlive/2024/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) (e:/FakeC/texlive/2024/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+ (e:/FakeC/texlive/2024/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box64
+)
+\tc@llx=\dimen196
+\tc@lly=\dimen197
+\tc@urx=\dimen198
+\tc@ury=\dimen199
+Package trimclip Info: Using driver 'tc-xetex.def'.
+ (e:/FakeC/texlive/2024/texmf-dist/tex/latex/adjustbox/tc-xetex.def
+File: tc-xetex.def 2019/01/04 v2.2 Clipping driver for xetex
+))
+\adjbox@Width=\dimen256
+\adjbox@Height=\dimen257
+\adjbox@Depth=\dimen258
+\adjbox@Totalheight=\dimen259
+\adjbox@pwidth=\dimen260
+\adjbox@pheight=\dimen261
+\adjbox@pdepth=\dimen262
+\adjbox@ptotalheight=\dimen263
+ (e:/FakeC/texlive/2024/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count308
+) (e:/FakeC/texlive/2024/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box65
+\sift@deathcycles=\count309
+\@vwid@loff=\dimen264
+\@vwid@roff=\dimen265
+)) (e:/FakeC/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2024-02-20 L3 backend support: XeTeX
+\g__graphics_track_int=\count310
+\l__pdf_internal_box=\box66
+\g__pdf_backend_object_int=\count311
+\g__pdf_backend_annotation_int=\count312
+\g__pdf_backend_link_int=\count313
+) (tmp/abdn-plan.aux)
+\openout1 = `abdn-plan.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 15.
+ (e:/FakeC/texlive/2024/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+ [1
+
+] [2]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 86.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 86.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 86.
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+[]\TU/lmr/bx/n/12 Mitigation Strat-
+ []
+
+
+Overfull \hbox (2.81775pt too wide) in paragraph at lines 90--90
+[]\TU/lmr/bx/n/12 Computational
+ []
+
+
+Underfull \hbox (badness 3189) in paragraph at lines 90--90
+\TU/lmr/m/n/12 for training large
+ []
+
+
+Underfull \hbox (badness 2790) in paragraph at lines 90--90
+\TU/lmr/m/n/12 models, with po-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
+[]\TU/lmr/m/n/12 If resources are
+ []
+
+
+Underfull \hbox (badness 2635) in paragraph at lines 90--91
+[]\TU/lmr/m/n/12 Optimize the model
+ []
+
+
+Underfull \hbox (badness 1142) in paragraph at lines 90--91
+\TU/lmr/m/n/12 effective GPU rental
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+[]\TU/lmr/bx/n/12 Model Per-
+ []
+
+
+Underfull \hbox (badness 1389) in paragraph at lines 92--92
+\TU/lmr/bx/n/12 formance and
+ []
+
+
+Underfull \hbox (badness 2020) in paragraph at lines 92--92
+[]\TU/lmr/m/n/12 Small datasets or
+ []
+
+
+Underfull \hbox (badness 3209) in paragraph at lines 92--92
+\TU/lmr/m/n/12 formance in real-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+[]\TU/lmr/m/n/12 Employ dropout,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+\TU/lmr/m/n/12 data augmentation,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+\TU/lmr/m/n/12 and regularization
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+\TU/lmr/m/n/12 validation perfor-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+\TU/lmr/bx/n/12 and Project
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+[]\TU/lmr/m/n/12 Tight deadlines
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 94--94
+\TU/lmr/m/n/12 and the need for
+ []
+
+
+Underfull \hbox (badness 5985) in paragraph at lines 94--94
+\TU/lmr/m/n/12 delays or incom-
+ []
+
+
+Underfull \hbox (badness 7722) in paragraph at lines 94--94
+\TU/lmr/m/n/12 tuning and data
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+[]\TU/lmr/m/n/12 Properly allocate
+ []
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 94--95
+\TU/lmr/m/n/12 milestones first, and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+\TU/lmr/m/n/12 model optimization
+ []
+
+
+Underfull \hbox (badness 2213) in paragraph at lines 94--95
+\TU/lmr/m/n/12 and core functional-
+ []
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 123--123
+ \TU/lmr/m/n/12 Research
+ []
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 127--127
+ \TU/lmr/m/n/12 els Perfor-
+ []
+
+Missing character: There is no , ("2C) in font nullfont!
+[3] [4] [5] (tmp/abdn-plan.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 14999 strings out of 474773
+ 327779 string characters out of 5758619
+ 1970842 words of memory out of 5000000
+ 36897 multiletter control sequences out of 15000+600000
+ 560877 words of font info for 54 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 99i,10n,107p,916b,1100s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on tmp/abdn-plan.xdv (5 pages, 138208 bytes).
