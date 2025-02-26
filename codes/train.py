@@ -11,6 +11,7 @@ import matplotlib.pyplot as plt
 
 import datetime
 import os
+from torch.utils.tensorboard import SummaryWriter
 
 
 
@@ -22,35 +23,39 @@ class train_controller:
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.epochs = 1
 
-
+        # load the data into dataloader
         self.train_data = oct_loader(data_type="train")
         self.val_data = oct_loader(data_type="val")
         self.train_loader = DataLoader(self.train_data, batch_size=self.batch_size, shuffle=True)
         self.val_loader = DataLoader(self.val_data, batch_size = len(self.val_data), shuffle = True)
+
+        # model configuration
         self.model = oct_vit()
-        if model_weight is not None:
+        if model_weight is not None:       # if the weight is provided, load the weight
             self.model.load_state_dict(torch.load(model_weight))
             print("Loaded the previous model result")
         self.model = self.model.to(self.device)
 
-        
+        # loss and optimizer
         self.loss_func = nn.CrossEntropyLoss()
         self.optimizer = optim.SGD(self.model.parameters(), lr=self.lr)
-        if optimizer_state is not None:
+        if optimizer_state is not None:    # if the optimizer state is provided, load the state
             self.optimizer.load_state_dict(torch.load(optimizer_state))
             print("Loaded the previous optimizer state")
             
 
     def run(self):
-        train_loss = []
-        val_loss = []
+        # initialize tensorboard writer
+        writer  = SummaryWriter()
+
+        # add graph to tensorboard
+        sample_images, _ = next(iter(self.train_loader))
+        writer.add_graph(self.model, sample_images.to(self.device))
+
         for epoch in range(1, self.epochs + 1):
             print("{} Epoch {} start".format(datetime.datetime.now(), epoch))
-            i = 0
-            train_loss_10 = 0
-            for images, labels in self.train_loader:
-                i += 1
-                images, labels = images.to(self.device), labels.to(self.device)
+            for idx, (images, labels) in enumerate(self.train_loader, 1):
+                images, labels = images.to(self.device), labels.to(self.device)     # remember to device!
 
                 output = self.model(images)
 
@@ -59,15 +64,15 @@ class train_controller:
                 self.optimizer.zero_grad()
                 loss.backward()
                 self.optimizer.step()
-                train_loss_10 += loss.item()
-                if i % 10 == 0:
-                    train_loss.append(train_loss_10/10)
-                    print(f"{datetime.datetime.now()} Epoch {epoch}, Training Loss: {train_loss[-1]} ")
-                    train_loss_10 = 0
+
+                writer.add_scalar("Loss/train", loss.item(), epoch * len(self.train_loader) + idx)
+
+                if idx % 100 == 0:
+                    print(f"{datetime.datetime.now()} Epoch {epoch}, Steps: {idx}, Training Loss: {loss.item} ")
+
+            # validation
             print("{} Epoch {} start Validation".format(datetime.datetime.now(), epoch))  
-            j = 0
-            for images, labels in self.val_loader:
-                j += 1
+            for idx, (images, labels) in enumerate(self.val_loader, 1):
                 with torch.no_grad():  
                     images, labels = images.to(self.device), labels.to(self.device)
 
@@ -75,21 +80,11 @@ class train_controller:
 
                     loss = self.loss_func(output, labels)
 
-                    val_loss += [loss.item() for n in range(i // 10)]
+                    writer.add_scalar('Loss/val', loss.item(), epoch * len(self.val_loader) + idx)
                     
-                    print(f"{datetime.datetime.now()} Epoch {epoch}, Validation Loss: {val_loss[-1]} ")
+                    print(f"{datetime.datetime.now()} Epoch {epoch}, , Steps: {idx}, Validation Loss: {loss.item()} ")
     
-        plt.figure(figsize=(10, 5))
-        plt.plot(range(1,len(train_loss) + 1), train_loss, label='Training Loss')
-        plt.plot(range(1,len(val_loss) + 1), val_loss, label='Validation Loss')
-        plt.xlabel('Epoch')
-        plt.ylabel('Loss')
-        plt.title('Training and Validation Loss')
-        plt.legend()
-        
-        plt.savefig("loss_plot_early_stop2.png")
-        plt.show()
-
+        writer.close()
 
                 
 

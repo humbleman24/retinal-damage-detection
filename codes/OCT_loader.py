@@ -18,13 +18,14 @@ class oct_loader(Dataset):
             data_type: str = "train",
             transformers: Optional[Compose] = None,
         ) -> None:
-
+        # receive the data type and get the data path
         if data_type == "train" or data_type == "test" or data_type == "val":
             data_path = os.path.join(Data_path, data_type)
         else:
             raise ValueError("The type of dataset should be among 'train', 'test' and 'val', But get {}".format(data_type))
         
         if transformers == None:
+            # standard transformation for the image
             transformers = transforms.Compose([
                 transforms.Resize((224, 224)),
                 transforms.ToTensor(),
@@ -41,10 +42,10 @@ class oct_loader(Dataset):
             "DRUSEN": 2,
             "NORMAL": 3
         }
-
+        # loading the image path and label
         for i in os.listdir(data_path):
-            label = cate_label_mapping[i]
-            image_path_i = glob.glob(os.path.join(data_path, i) + "/*.jpeg")
+            label = cate_label_mapping[i]         # get the label based on dir name
+            image_path_i = glob.glob(os.path.join(data_path, i) + "/*.jpeg")    # loop over all the images in the dir, return a list
             self.image_paths += image_path_i
             image_label_i = [label] * len(image_path_i)
             self.image_labels += image_label_i
@@ -56,9 +57,11 @@ class oct_loader(Dataset):
         img_name = self.image_paths[idx]
         label = self.image_labels[idx]
 
+        # load image and transfer it only when it is needed
         image = Image.open(img_name).convert("RGB")
         image = self.transformers(image)
 
+        # the order is important, first image, then label
         return image, label
 
 
