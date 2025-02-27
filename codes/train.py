@@ -21,7 +21,7 @@ class train_controller:
         self.lr = 5e-3
 
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-        self.epochs = 1
+        self.epochs = 10
 
         # load the data into dataloader
         self.train_data = oct_loader(data_type="train")
@@ -68,7 +68,7 @@ class train_controller:
                 writer.add_scalar("Loss/train", loss.item(), epoch * len(self.train_loader) + idx)
 
                 if idx % 100 == 0:
-                    print(f"{datetime.datetime.now()} Epoch {epoch}, Steps: {idx}, Training Loss: {loss.item} ")
+                    print(f"{datetime.datetime.now()} Epoch {epoch}, Steps: {idx}, Training Loss: {loss.item()} ")
 
             # validation
             print("{} Epoch {} start Validation".format(datetime.datetime.now(), epoch))  
@@ -91,18 +91,16 @@ class train_controller:
 
 output_dir = "model_safer"
 
-model_save_path = os.path.join(output_dir, "base_vit1.pth")
-optimizer_save_path = os.path.join(output_dir, "base_vit_optim1.pth")
+model_save_path = os.path.join(output_dir, "svit.pth")
+optimizer_save_path = os.path.join(output_dir, "svit.pth")
 
 
 # t = train_controller(model_weight=model_save_path, optimizer_state=optimizer_save_path)
 t = train_controller()
 t.run()
 
-
 # model_save_path = os.path.join(output_dir, "base_resnet_early_stop2.pth")
 # optimizer_save_path = os.path.join(output_dir, "base_resnet_optim_early_stop2.pth")
-
 
 
 torch.save(t.model.state_dict(), model_save_path)
