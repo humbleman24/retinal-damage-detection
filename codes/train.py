@@ -1,6 +1,7 @@
 from OCT_loader import oct_loader
 from base_resnet import oct_resnet
 from base_vit import oct_vit
+from squeeze_vit import SqueezeViT
 
 from torch.utils.data import DataLoader
 import torch.optim as optim
@@ -30,7 +31,7 @@ class train_controller:
         self.val_loader = DataLoader(self.val_data, batch_size = len(self.val_data), shuffle = True)
 
         # model configuration
-        self.model = oct_vit()
+        self.model = SqueezeViT()
         if model_weight is not None:       # if the weight is provided, load the weight
             self.model.load_state_dict(torch.load(model_weight))
             print("Loaded the previous model result")
